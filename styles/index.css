@@ -1,0 +1,15 @@
+main{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+
+/* 
+#000000
+#36ffd6
+#28bdd0
+#f5f5f4
+*/

@@ -1,0 +1,47 @@
+li, main h2{
+    color: #36ffd7e1;
+    font-size: large;
+}
+
+h3{
+    color: #28bdd0;
+}
+
+
+h1{
+    color: #28bdd0;
+    font-size: 30px;
+}
+
+main{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.bioInfo{
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 0;
+    padding: 20px;
+}
+
+#info{
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 0;
+    justify-content: space-evenly;
+    list-style-type: none;
+}
+
+.link{
+    border-radius: 10px;
+}
+
+li{
+    padding: 30px;
+}
+
+.contacts{
+    display: flex;
+}
