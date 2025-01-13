@@ -38,10 +38,6 @@ main{
     border-radius: 10px;
 }
 
-li{
-    padding: 30px;
-}
-
 .contacts{
     display: flex;
 }
