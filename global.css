@@ -36,7 +36,7 @@ header ul li a:hover{
 }
 
 body{
-    background-color: #0e0d0d;
+    background: linear-gradient(40deg,#000000, #111111, #000000);
     display: flex;
     flex-direction: column;
     min-height: 100vh;
@@ -53,7 +53,7 @@ footer{
     background: linear-gradient(40deg,#36ffd6, #28bdd0);
 }
 
-li, main h2{
+li, main p, main h2{
     color: #36ffd7e1;
     font-size: large;
 }
