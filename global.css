@@ -1,4 +1,4 @@
-@media (min-width: 1200px){
+@media (max-width: 2000px){
     header{
         background: linear-gradient(40deg,#28bdd0, #36ffd6);
         padding: 10px;
