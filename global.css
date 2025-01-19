@@ -82,6 +82,10 @@
     main p{
         font-size: large;
     }
+
+    main ul{
+        list-style: none;
+    }
 }
 
 @media (min-width: 481px) and (max-width: 1199px){
@@ -158,6 +162,10 @@
     li, h1, h2, h3, p{
         font-size: large;
     }
+
+    main ul{
+        list-style: none;
+    }
 }
 
 @media (max-width: 2000px){
@@ -229,5 +237,9 @@
     h1{
         color: #28bdd0;
         font-size: 30px;
+    }
+
+    main ul{
+        list-style: none;
     }
 }
