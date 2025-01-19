@@ -1,69 +1,232 @@
-header{
-    background: linear-gradient(40deg,#28bdd0, #36ffd6);
-    padding: 10px;
-    display: flex;
-    justify-content: space-between;
-    flex-direction: row;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
-    height: 40px;
+@media (min-width: 1200px) and (max-width: 1919px){
+    header{
+        background: linear-gradient(40deg,#28bdd0, #36ffd6);
+        padding: 10px;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+        height: 40px;
+    }
+    
+    .logo{
+        border-radius: 10px;
+        height: 45px;
+    }
+    
+    header ul{
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+    }
+    
+    header ul li{
+        display: inline;
+    }
+    
+    header ul li a{
+        text-decoration: none;
+        display: block;
+        padding: 0.5rem 1rem;
+        color: black;
+    }
+    
+    header ul li a:hover{
+        color: rgb(153, 0, 255);
+    }
+    
+    body{
+        background: linear-gradient(40deg,#000000, #111111, #000000);
+        display: flex;
+        flex-direction: column;
+        min-height: 100vh;
+    }
+    
+    main{
+        flex: 1 1 0;
+    }
+    
+    footer{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        background: linear-gradient(40deg,#36ffd6, #28bdd0);
+    }
+    
+    main p, main h2{
+        color: #36ffd7e1;
+        font-size: large;
+    }
+    
+    h3{
+        color: #28bdd0;
+    }
+    
+    
+    h1{
+        color: #28bdd0;
+        font-size: 30px;
+    }
 }
 
-.logo{
-    border-radius: 10px;
-    height: 45px;
+@media (max-width: 480px) {
+    header{
+        background: linear-gradient(40deg,#28bdd0, #36ffd6);
+        padding: 10px;
+        display: flex;
+        flex-direction: row;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+        height: 40px;
+    }
+    
+    .logo{
+        border-radius: 10px;
+        height: 45px;
+    }
+    
+    header ul{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        
+    }
+    
+    header ul li{
+        display: inline;
+    }
+    
+    header ul li a{
+        text-decoration: none;
+        padding-right: 18px;
+        display: block;
+        color: black;
+    }
+    
+    header ul li a:hover{
+        color: rgb(153, 0, 255);
+    }
+    
+    body{
+        background: linear-gradient(40deg,#000000, #111111, #000000);
+        display: flex;
+        flex-direction: column;
+        min-height: 100vh;
+    }
+    
+    main{
+        margin: 20px;
+        flex: 1 1 0;
+        word-wrap:break-word;
+    }
+
+    .imgProjeto{
+        height: 150px;
+        width: 275px
+    }
+    
+    footer{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        background: linear-gradient(40deg,#36ffd6, #28bdd0);
+    }
+    
+    main p, main h2{
+        color: #36ffd7e1;
+    }
+
+    li,footer p{
+        font-size: 20px
+    }
+    
+    h3{
+        color: #28bdd0;
+    }
+    
+    
+    h1{
+        color: #28bdd0;
+        font-size: 30px;
+    }
+
+    main p{
+        font-size: large;
+    }
 }
 
-header ul{
-    display: flex;
-    align-items: center;
-    flex-direction: row;
-}
+@media (min-width: 481px) and (max-width: 1199px){
+    header{
+        background: linear-gradient(40deg,#28bdd0, #36ffd6);
+        padding: 10px;
+        display: flex;
+        flex-direction: row;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+        height: 40px;
+    }
+    
+    .logo{
+        border-radius: 10px;
+        height: 45px;
+    }
+    
+    header ul{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        
+    }
+    
+    header ul li{
+        display: inline;
+    }
+    
+    header ul li a{
+        text-decoration: none;
+        padding-right: 60px;
+        display: block;
+        color: black;
+    }
+    
+    header ul li a:hover{
+        color: rgb(153, 0, 255);
+    }
+    
+    body{
+        background: linear-gradient(40deg,#000000, #111111, #000000);
+        display: flex;
+        flex-direction: column;
+        min-height: 100vh;
+    }
+    
+    main{
+        flex: 1 1 0;
+    }
+    
+    footer{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        background: linear-gradient(40deg,#36ffd6, #28bdd0);
+    }
+    
+    main p, main h2{
+        color: #36ffd7e1;
+    }
+    
+    h3{
+        color: #28bdd0;
+    }
+    
+    
+    h1{
+        color: #28bdd0;
+        font-size: 30px;
+    }
 
-header ul li{
-    display: inline;
-}
-
-header ul li a{
-    text-decoration: none;
-    display: block;
-    padding: 0.5rem 1rem;
-    color: black;
-}
-
-header ul li a:hover{
-    color: rgb(153, 0, 255);
-}
-
-body{
-    background: linear-gradient(40deg,#000000, #111111, #000000);
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh;
-}
-
-main{
-    flex: 1 1 0;
-}
-
-footer{
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    background: linear-gradient(40deg,#36ffd6, #28bdd0);
-}
-
-li, main p, main h2{
-    color: #36ffd7e1;
-    font-size: large;
-}
-
-h3{
-    color: #28bdd0;
-}
-
-
-h1{
-    color: #28bdd0;
-    font-size: 30px;
+    li, h1, h2, h3, p{
+        font-size: large;
+    }
 }
