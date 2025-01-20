@@ -18,7 +18,7 @@
         display: flex;
         flex-direction: row;
         align-items: center;
-        
+        padding: 0px 0px 0px 0px;
     }
     
     header ul li{
@@ -27,7 +27,7 @@
     
     header ul li a{
         text-decoration: none;
-        padding-right: 18px;
+        padding: 0.1rem 0.5rem;
         display: block;
         color: black;
     }
@@ -168,7 +168,7 @@
     }
 }
 
-@media (max-width: 2000px){
+@media (min-width: 1200px){
     header{
         background: linear-gradient(40deg,#28bdd0, #36ffd6);
         padding: 10px;
