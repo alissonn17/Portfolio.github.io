@@ -1,15 +1,17 @@
+@import "variables.css";
+
 main h2{
-    color: #36ffd7e1;
+    color: var(--cyan-color);
     font-size: large;
 }
 
 h3{
-    color: #28bdd0;
+    color: var(--turquoise-color);
 }
 
 
 h1{
-    color: #28bdd0;
+    color: var(--turquoise-color);
     font-size: 30px;
 }
 

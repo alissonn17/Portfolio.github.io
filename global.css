@@ -1,6 +1,8 @@
+@import "styles/variables.css";
+
 @media (max-width: 480px) {
     header{
-        background: linear-gradient(40deg,#28bdd0, #36ffd6);
+        background: linear-gradient(40deg, var(--turquoise-color), var(--cyan-color));
         padding: 10px;
         display: flex;
         flex-direction: row;
@@ -29,15 +31,15 @@
         text-decoration: none;
         padding: 0.1rem 0.5rem;
         display: block;
-        color: black;
+        color: var(--black-color);
     }
     
     header ul li a:hover{
-        color: rgb(153, 0, 255);
+        color: var(--purple-color);
     }
     
     body{
-        background: linear-gradient(40deg,#000000, #111111, #000000);
+        background: linear-gradient(40deg,var(--black-color), var(--blaclkLite-color), var(--black-color));
         display: flex;
         flex-direction: column;
         min-height: 100vh;
@@ -58,11 +60,11 @@
         display: flex;
         align-items: center;
         flex-direction: column;
-        background: linear-gradient(40deg,#36ffd6, #28bdd0);
+        background: linear-gradient(40deg,var(--cyan-color), var(--turquoise-color));
     }
     
     main p, main h2{
-        color: #36ffd7e1;
+        color: var(--cyan-color);
     }
 
     li,footer p{
@@ -70,12 +72,12 @@
     }
     
     h3{
-        color: #28bdd0;
+        color: var(--turquoise-color);
     }
     
     
     h1{
-        color: #28bdd0;
+        color: var(--turquoise-color);
         font-size: 30px;
     }
 
@@ -90,7 +92,7 @@
 
 @media (min-width: 481px) and (max-width: 1199px){
     header{
-        background: linear-gradient(40deg,#28bdd0, #36ffd6);
+        background: linear-gradient(40deg,var(--turquoise-color), var(--cyan-color));
         padding: 10px;
         display: flex;
         flex-direction: row;
@@ -120,15 +122,15 @@
         text-decoration: none;
         padding-right: 60px;
         display: block;
-        color: black;
+        color: var(--black-color);
     }
     
     header ul li a:hover{
-        color: rgb(153, 0, 255);
+        color: var(--purple-color);
     }
     
     body{
-        background: linear-gradient(40deg,#000000, #111111, #000000);
+        background: linear-gradient(40deg, var(--black-color), var(--blaclkLite-color), var(--black-color));
         display: flex;
         flex-direction: column;
         min-height: 100vh;
@@ -142,20 +144,20 @@
         display: flex;
         align-items: center;
         flex-direction: column;
-        background: linear-gradient(40deg,#36ffd6, #28bdd0);
+        background: linear-gradient(40deg, var(--cyan-color), var(--turquoise-color));
     }
     
     main p, main h2{
-        color: #36ffd7e1;
+        color: var(--cyan-color);
     }
     
     h3{
-        color: #28bdd0;
+        color: var(--turquoise-color);
     }
     
     
     h1{
-        color: #28bdd0;
+        color: var(--turquoise-color);
         font-size: 30px;
     }
 
@@ -170,7 +172,7 @@
 
 @media (min-width: 1200px){
     header{
-        background: linear-gradient(40deg,#28bdd0, #36ffd6);
+        background: linear-gradient(40deg,var(--turquoise-color), var(--cyan-color));
         padding: 10px;
         display: flex;
         justify-content: space-between;
@@ -199,15 +201,15 @@
         text-decoration: none;
         display: block;
         padding: 0.5rem 1rem;
-        color: black;
+        color: var(--black-color);
     }
     
     header ul li a:hover{
-        color: rgb(153, 0, 255);
+        color: var(--purple-color);
     }
     
     body{
-        background: linear-gradient(40deg,#000000, #111111, #000000);
+        background: linear-gradient(40deg, var(--black-color), var(--blaclkLite-color), var(--black-color));
         display: flex;
         flex-direction: column;
         min-height: 100vh;
@@ -221,21 +223,21 @@
         display: flex;
         align-items: center;
         flex-direction: column;
-        background: linear-gradient(40deg,#36ffd6, #28bdd0);
+        background: linear-gradient(40deg,var(--cyan-color), var(--turquoise-color));
     }
     
     main p, main h2{
-        color: #36ffd7e1;
+        color: var(--cyan-color);
         font-size: large;
     }
     
     h3{
-        color: #28bdd0;
+        color: var(--turquoise-color);
     }
     
     
     h1{
-        color: #28bdd0;
+        color: var(--turquoise-color);
         font-size: 30px;
     }
 
