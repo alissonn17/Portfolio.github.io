@@ -88,6 +88,18 @@
     main ul{
         list-style: none;
     }
+
+    #tecnology ul{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+
+    #tecnology ul li{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
 }
 
 @media (min-width: 481px) and (max-width: 1199px){
@@ -168,6 +180,18 @@
     main ul{
         list-style: none;
     }
+
+    #tecnology ul{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+
+    #tecnology ul li{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
 }
 
 @media (min-width: 1200px){
@@ -243,5 +267,17 @@
 
     main ul{
         list-style: none;
+    }
+
+    #tecnology ul{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+
+    #tecnology ul li{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
 }
