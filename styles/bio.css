@@ -43,3 +43,15 @@ main{
 .contacts{
     display: flex;
 }
+
+#listTec{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+#listTec li{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
