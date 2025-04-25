@@ -267,9 +267,9 @@
         font-size: 30px;
     }
 
-    main ul{
+    /* main ul{
         list-style: none;
-    }
+    } */
 
     #listTec{
         display: flex;
