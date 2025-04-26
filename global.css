@@ -95,12 +95,32 @@
         justify-content: space-evenly;
     }
 
-    #listTec li{
+    .logoTec{
         display: flex;
         flex-direction: column;
         align-items: center;
+        margin-bottom: 20px;
+        /* animation: floating 3s ease-in-out infinite; */
+        /* transition: transform 0.5s ease; */
     }
 
+    .logoTec a{
+        animation: floating 3s ease-in-out infinite;
+        /* transition: transform 0.5s ease; */
+    }
+    
+    /* .logoTec a:hover{
+       transform: scale(1.5);
+    } */
+
+    @keyframes floating{
+        0%, 100%{
+            transform: translate(0, 0px);
+        }
+        50%{
+            transform: translate(0, 50px);
+        }
+    }
 }
 
 @media (min-width: 481px) and (max-width: 1199px){
@@ -188,10 +208,31 @@
         justify-content: space-evenly;
     }
 
-    #listTec li{
+    .logoTec{
         display: flex;
         flex-direction: column;
         align-items: center;
+        margin-bottom: 20px;
+        /* animation: floating 3s ease-in-out infinite; */
+        /* transition: transform 0.5s ease; */
+    }
+
+    .logoTec a{
+        animation: floating 3s ease-in-out infinite;
+        /* transition: transform 0.5s ease; */
+    }
+    
+    /* .logoTec a:hover{
+       transform: scale(1.5);
+    } */
+
+    @keyframes floating{
+        0%, 100%{
+            transform: translate(0, 0px);
+        }
+        50%{
+            transform: translate(0, 50px);
+        }
     }
 
 }
@@ -277,10 +318,37 @@
         justify-content: space-evenly;
     }
 
-    #listTec li{
+    .logoTec{
         display: flex;
         flex-direction: column;
         align-items: center;
+        margin-bottom: 20px;
+        /* animation: floating 3s ease-in-out infinite; */
+        /* transition: transform 0.5s ease; */
+    }
+
+    .logoTec a{
+        animation: floating 3s ease-in-out infinite;
+        /* transition: transform 0.5s ease; */
     }
     
+    /* .logoTec a:hover{
+       transform: scale(1.5);
+    } */
+
+    @keyframes floating{
+        0%, 100%{
+            transform: translate(0, 0px);
+        }
+        50%{
+            transform: translate(0, 50px);
+        }
+    }
+    
+    #projetos li:hover{
+        background-color: var(--purpleLite-color);
+        border-radius: 30px;
+        padding: 15px;
+        border: solid 2px var(--cyan-color);
+    }
 }
