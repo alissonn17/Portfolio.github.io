@@ -9,6 +9,8 @@
         border-top-left-radius: 10px;
         border-top-right-radius: 10px;
         height: 40px;
+        justify-content: space-between;
+        max-width: 480px;
     }
     
     .logo{
@@ -43,12 +45,13 @@
         display: flex;
         flex-direction: column;
         min-height: 100vh;
+        max-width: 480px;
     }
     
     main{
-        margin: 20px;
-        flex: 1 1 0;
         word-wrap:break-word;
+        max-width: 480px;
+        padding-right: 20px;
     }
 
     .imgProjeto{
@@ -78,7 +81,7 @@
     
     h1{
         color: var(--turquoise-color);
-        font-size: 30px;
+        /* font-size: ; */
     }
 
     main p{
@@ -91,8 +94,8 @@
 
     #listTec{
         display: flex;
-        flex-direction: row;
-        justify-content: space-evenly;
+        max-width: 480px;
+        justify-content:center;
     }
 
     .logoTec{

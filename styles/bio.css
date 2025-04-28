@@ -1,5 +1,33 @@
 @import "variables.css";
 
+@media (max-width: 480px){
+    .sectionInfo{
+        display: flex;
+        flex-direction: column;
+        padding: 50px;
+        gap: 15px;
+        max-width: 480px;
+        transform: scalex(0.9);
+        word-wrap:break-word;
+    }
+
+    #info{
+        display: flex;
+        flex-direction: column;
+        flex: 1 1 0;
+        justify-content: space-evenly;
+        list-style-type: none;
+        padding-right: 20px;
+        max-width: 480px;
+    }
+
+    main{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+}
+
 main h2{
     color: var(--cyan-color);
     font-size: large;
@@ -17,17 +45,19 @@ h1{
 
 main{
     display: flex;
-    align-items: center;
+    /* align-items: center; */
     flex-direction: column;
 }
 
 .sectionInfo{
     display: flex;
     flex-direction: column;
-    flex: 1 1 0;
-    padding: 20px;
+    /* flex: 1 1 0; */
+    padding: 50px;
     gap: 15px;
 }
+
+
 
 #info{
     display: flex;
